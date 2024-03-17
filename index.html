@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Fizika</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0">Teorija relativnosti</h1>
+
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Početna</a>
+                        <a href="einstein.html" class="nav-item nav-link">Einstein</a>
+                        <a href="michelson.html" class="nav-item nav-link">Michelson-Morley</a>
+                        <a href="postulati.html" class="nav-item nav-link">Einsteinovi postulati</a>
+                        <a href="istodobnost.html" class="nav-item nav-link">Istodobnosti</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lorentzove transformacije</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="zbrajanje.html" class="dropdown-item">Zbrajanje brzina</a>
+                                <a href="usporenje.html" class="dropdown-item">Usporenje vremena</a>
+                                <a href="skracenje.html" class="dropdown-item">Skraćenje duljine</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Kontakt</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Carousel Start -->
+            <div class="carousel-header">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/teorija-1.webp" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Teorija Relativnost</h4>
+                                    <h1 class="display-2 text-capitalize text-white mb-4">Jedna od najvećih teorija u fizici</h1>
+                                    <p class="mb-5 fs-5">Potvrđena je i usklađena s mnogobrojnim opažanjima: u astronomiji i astrofizici, fizici čestica i jezgara u akceleratorima čestica, te u preciznim satelitskim i laboratorijskim pokusima širom svijeta. 
+                                    </p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <audio controls>
+                                            <source src="Damstra.mp3" type="audio/ogg">
+                                            <source src="Damstra.mp3" type="audio/mpeg">
+                            
+                                          </audio>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div class="carousel-item">
+                            <img src="img/teorija-2.webp" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Albert Einstein</h4>
+                                    <h1 class="display-2 text-capitalize text-white mb-4">Einsteinove opće teorije relativnosti (1916)</h1>
+                                    <p class="mb-5 fs-5">Einsteinova opća teorija relativnosti (teorije gravitacije) nastajala je razmjerno dugo.
+                                        
+                                    </p>
+                                   
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <audio controls>
+                                            <source src="Damstra.mp3" type="audio/ogg">
+                                            <source src="Damstra.mp3" type="audio/mpeg">
+                            
+                                          </audio>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon btn bg-primary" aria-hidden="false"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon btn bg-primary" aria-hidden="false"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        <!-- Navbar & Hero End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5">
+                        <div class="h-100" style="border: 50px solid; border-color: transparent #13357B transparent #13357B;">
+                            <img src="img/Einstein.webp" class="img-fluid w-100 h-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7" style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(img/einstein-pozadina.jpg);">
+                        <h1 class="mb-4">Albert <span class="text-primary">Einstein</span></h1>
+                        <p class="mb-4">Sadržaj relativističke fizike Einsteinova je relativnost primijenjena u svim granama fizike, koja je zasnovana na postulatima posebne teorije relativnosti (1905.)  </p>
+                        <p class="mb-4">i tenzorske teorije gravitacijskog polja u općoj teoriji relativnosti (1916.), a njezino je uporište klasično načelo relativnosti.</p>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="einstein.html">Saznaj više</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                    <h1 class="mb-4">Lorenzove transformacije</h1>
+                    <p class="mb-0">Lorentzove transformacije su algebarske linearne relacije koje povezuju koordinate nekoga fizičkog događaja u mirnome sustavu S s pripadajućim koordinatama u sustavu S'  koji se prema sustavu S giba uzduž osi x stalnom brzinom v.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <div class="blog-img-inner">
+                                    <img class="img-fluid w-100 rounded-top" src="img/images.jpg" alt="Image">
+                                </div>
+                            </div>
+                            <div class="blog-content border border-top-0 rounded-bottom p-4">
+                                <a href="#" class="h4">Zbrajanje brzina</a>
+                                <p class="my-3">Einstein zaključuje da Galilejevo zbrajanje brzina ne vrijedi kad su brzine vrlo velike, bliske brzini svjetlosti</p>
+                                <a href="zbrajanje.html" class="btn btn-primary rounded-pill py-2 px-4">Saznaj više</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <div class="blog-img-inner">
+                                    <img class="img-fluid w-100 rounded-top" src="img/zbrajanje-brzina-1.JPG" alt="Image">
+                                </div>
+                            </div>
+                            <div class="blog-content border border-top-0 rounded-bottom p-4">
+                                <a href="#" class="h4">Usporenje vremena</a>
+                                <p class="my-3"> Pojavljuje se kad promatrač promatra sat koji se giba u odnosu na njega i vidi da je on sporiji nego kad miruje. </p>
+                                <a href="usporenje.html" class="btn btn-primary rounded-pill py-2 px-4">Saznaj više</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <div class="blog-img-inner">
+                                    <img class="img-fluid w-100 rounded-top" src="img/BRZINE.png" alt="Image">
+                                </div>
+
+                            </div>
+                            <div class="blog-content border border-top-0 rounded-bottom p-4">
+                                <a href="#" class="h4">skraćenje duljine</a>
+                                <p class="my-3">Skraćivanje fizikalnog tijela u smjeru gibanja pri gibanju brzinom koja je usporediva s brzinom svjetlosti za faktor y</p>
+                                <a href="skracenje.html" class="btn btn-primary rounded-pill py-2 px-4">Saznaj više</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+   
+        
+        
+    
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
